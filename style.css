@@ -1,5 +1,4 @@
 * {
-    border: 5px solid red;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,4 +28,13 @@
     justify-content: center; 
     gap: 10px;               
 }
+
+button {
+    background-color: aquamarine;
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+}
+
 
