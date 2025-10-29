@@ -1,0 +1,32 @@
+* {
+    border: 5px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.square {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.square:hover {
+    transform: 0.7s;
+}
+
+.main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 20px;              
+}
+
+.controlsBtn {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;               
+}
+
