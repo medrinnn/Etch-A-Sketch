@@ -4,37 +4,45 @@
     box-sizing: border-box;
 }
 
-.square {
+#grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    width: 90vmin;  
+    height: 90vmin; 
+    gap: 1px;
+    border: 2px solid black;
+}
+
+.square {
     border: 1px solid black;
-    width: 20px;
-    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1; 
 }
 
 .square:hover {
-    transform: 0.7s;
+    transition: all 0.3s;
 }
 
 .main {
     display: flex;
-    flex-direction: column; 
-    align-items: center;    
-    gap: 20px;              
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .controlsBtn {
     display: flex;
-    justify-content: center; 
-    gap: 10px;               
+    justify-content: center;
+    gap: 10px;
 }
 
 button {
     background-color: aquamarine;
     border: 4px solid black;
     border-radius: 5px;
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
 }
-
-
