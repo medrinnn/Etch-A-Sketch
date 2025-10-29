@@ -22,4 +22,11 @@ gridsizeBtn.addEventListener("click", (() => {
     }
 }));
 
+clearBtn.addEventListener("click", () => {
+    const squares = document.querySelectorAll(".square");
+    squares.forEach(square => {
+        square.style.backgroundColor = "white";
+    });
+});
+
 
